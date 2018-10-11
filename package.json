@@ -1,0 +1,36 @@
+{
+  "name": "daciolo-chrome-extension",
+  "version": "1.0.0",
+  "description": "Extensão do Google Chrome para louvar a honra e glória do senhor Jesus Cristo",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_modules/.bin/babel --presets es2015 *.js --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudnetto/daciolo-chrome-extension.git"
+  },
+  "keywords": [
+    "Daciolo",
+    "Deux",
+    "Glória",
+    "Eleições",
+    "2018",
+    "Cabo"
+  ],
+  "author": "rudnetto",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rudnetto/daciolo-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/rudnetto/daciolo-chrome-extension#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
