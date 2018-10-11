@@ -8,7 +8,7 @@ for(i = 0; i < elements.length; i++) {
 
     if(node.nodeType === 3) {
       var text = node.nodeValue;
-      var regex = /(Gloria|Glória|gloria|glória)+/g
+      var regex = /(gl[oó]ria)+/gim
       var replacedText = text.replace(regex, '$& a deuxxx');
 
       if (replacedText !== text) {
