@@ -4,7 +4,16 @@ Extensão do Google Chrome para louvar a honra e glória do senhor Jesus Cristo.
 
 ## Features
 
-- Transform DOM text `Glória` to `Glória a deuxxx`.
+### **Text Transformation**: changes text rendered in DOM
+
+Original text | Transformed Text
+------------- | ----------------
+Glória | Glória a deuxxx
+Brasil | URSAL
+
+### (TO-DO #11) **Image replacement**: change (almost) every image on page with Cabo Daciolo's pictures
+
+---
 
 ## Getting Started
 
