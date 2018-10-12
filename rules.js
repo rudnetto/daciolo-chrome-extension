@@ -1,14 +1,14 @@
-export const rules = [
+var RULES = [
   {
     nome: 'gloria',
     descricao: '',
-    regex: /(gl[oó]ria)+/gim,
-    conversao: '$& a deuxxx'
+    selector: /(gl[oó]ria)+/gim,
+    target: '$& a deuxxx'
   },
   {
     nome: 'ursal',
     descricao: '',
-    regex: /brasil/gim,
-    conversao: 'URSAL'
+    selector: /brasil/gim,
+    target: 'URSAL'
   }
 ];
