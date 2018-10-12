@@ -8,7 +8,7 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["jquery-3.3.1.min.js", "content.js"]
+      "js": ["jquery-3.3.1.min.js", "rules.js", "content.js"]
     }
   ],
   "icons": {
