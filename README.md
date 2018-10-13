@@ -11,7 +11,9 @@ Original text | Transformed Text
 Glória | Glória a deuxxx
 Brasil | URSAL
 
-### [(TO-DO #11)](https://github.com/rudnetto/daciolo-chrome-extension/issues/11) **Image replacement**: change (almost) every image on page with Cabo Daciolo's pictures
+### [(#11)](https://github.com/rudnetto/daciolo-chrome-extension/issues/11) **Image replacement**: change (almost) every image on page with Cabo Daciolo's pictures
+
+Every `<img>` element has it's source image changed by pictures of Cabo Daciolo. We fetch those pictures from Google Image's API.
 
 ---
 
