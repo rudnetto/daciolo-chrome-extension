@@ -10,5 +10,11 @@ var RULES = [
     descricao: '',
     selector: /brasil/gim,
     target: 'URSAL'
+  },
+  {
+    nome: 'sede',
+    descricao: '',
+    selector: /havan/gim,
+    target: 'Sede da Ursal'
   }
 ];
