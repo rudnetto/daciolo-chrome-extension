@@ -1,3 +1,6 @@
+import * as $ from 'jquery'
+import { RULES } from './rules'
+
 $.ajax({
   type: 'GET',
   url: 'https://www.googleapis.com/customsearch/v1?key=AIzaSyCKAqazg76rulZK_TFv7mu0LPMGYvSInjM&cx=010698837174061216194:e04i0fcmhhk&q=Cabo+Daciolo&fields=items/pagemap/cse_image',
