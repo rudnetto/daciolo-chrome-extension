@@ -5,13 +5,13 @@ $.ajax({
     var results = response.items;
     var images = [];
 
-    for (i = 0; i < results.length; i++) {
+    for (let i = 0; i < results.length; i++) {
       images.push(results[i].pagemap.cse_image[0].src);
     }
 
     var imageElements = document.getElementsByTagName('img');
 
-    for (i = 0; i < imageElements.length; i++) {
+    for (let i = 0; i < imageElements.length; i++) {
       var imageWidth = imageElements[i].width;
       var imageHeight = imageElements[i].height;
 
@@ -24,17 +24,17 @@ $.ajax({
 
 var elements = document.getElementsByTagName('*');
 
-for (i = 0; i < elements.length; i++) {
+for (let i = 0; i < elements.length; i++) {
   var element = elements[i];
 
-  for (j = 0; j < element.childNodes.length; j++) {
+  for (let j = 0; j < element.childNodes.length; j++) {
     var node = element.childNodes[j];
 
     if (node.nodeType === 3) {
       var text = node.nodeValue;
       var replacedText = text;
 
-      for (ruleIndex = 0; ruleIndex < RULES.length; ruleIndex++) {
+      for (let ruleIndex = 0; ruleIndex < RULES.length; ruleIndex++) {
         replacedText = replacedText.replace(RULES[ruleIndex].selector, RULES[ruleIndex].target);
       }
 
