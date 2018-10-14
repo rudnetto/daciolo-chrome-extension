@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = (env, options) => ({
 	mode: 'development',
 	entry: {
-		app: './content.js',
+		app: './src/content.js',
 	},
 	module: {
 		rules: [
