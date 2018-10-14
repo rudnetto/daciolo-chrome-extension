@@ -1,4 +1,4 @@
-var RULES = [
+export const RULES = [
   {
     nome: 'gloria',
     descricao: '',
