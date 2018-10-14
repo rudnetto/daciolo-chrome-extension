@@ -23,11 +23,13 @@ The extension is not published on Chrome Web Store yet. So we can only run it lo
 
 First, run `git checkout` to get the source code.
 
+Install depedencies with `npm install` and build the extension running `npm run build`.
+
 Then, open Google Chrome, go to **Extensions** page (Configs -> More Tools -> Extensions), enable **developer mode** and select (Load unpacked) the project folder.
 
 Following these steps you will install the extension locally.
 
-If you make any change on the extension, click on `Update` button on Extensions page to refresh the extension.
+If you make any change on the extension, build it again and click on `Update` button on Extensions page to refresh the extension.
 
 ## Contributing
 
