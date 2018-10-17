@@ -10,5 +10,11 @@ export const RULES = [
     descricao: '',
     selector: /brasil/gim,
     target: 'URSAL'
+  },
+  {
+    nome: 'deux',
+    descricao: '',
+    selector: /deus/gim,
+    target: 'deuxxx'
   }
 ];
