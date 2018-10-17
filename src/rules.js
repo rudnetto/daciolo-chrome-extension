@@ -6,9 +6,21 @@ export const RULES = [
     target: '$& a deuxxx'
   },
   {
-    nome: 'ursal',
+    nome: 'nacao brasileira',
     descricao: '',
     selector: /brasil/gim,
+    target: 'nacao brasileira'
+  },
+  {
+    nome: 'URSAL',
+    descricao '',
+    selector: /pt/gim,
+    target: 'URSAL'
+  },
+  {
+    nome: 'URSAL',
+    descricao '',
+    selector: /psl/gim,
     target: 'URSAL'
   }
 ];
