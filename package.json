@@ -5,7 +5,7 @@
   "main": "content.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "webpack --mode=production"
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "babel-loader": "^8.0.4",
     "jquery": "^3.3.1",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "daciolo-ipsum": "https://github.com/andrescalco/daciolo-ipsum"
   }
 }
