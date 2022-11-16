@@ -1,5 +1,25 @@
 import * as $ from 'jquery'
 import { RULES } from './rules'
+import { generate_quote } from 'daciolo-ipsum'
+
+const h1 = document.getElementsByTagName('h1');
+const h2 = document.getElementsByTagName('h2');
+
+for (let i = 0, len = h1.length; i < len; i++) {
+    h2[i].innerText = generate_quote({
+        paragraphs: 1,
+        quotes_per_paragraph: 1,
+        wrap_with_paragraph_tags: false,
+    });
+}
+
+for (let i = 0, len = h2.length; i < len; i++) {
+    h2[i].innerText = generate_quote({
+        paragraphs: 1,
+        quotes_per_paragraph: 1,
+        wrap_with_paragraph_tags: false,
+    });
+}
 
 $.ajax({
   type: 'GET',
