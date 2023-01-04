@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/rudnetto/daciolo-chrome-extension#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
     "jquery": "^3.4.0",
